@@ -20,9 +20,12 @@
   width: 80%;
 }
 
-.profile-component h2 {
+.profile-component h2,p {
   color: #0056f4;
   font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 .name-form form {
   display: flex;
@@ -53,4 +56,28 @@
   font-size: 1rem;
   width: 40%;
   background-color: #ffffff00;
+}
+.profile-image {
+  margin-top: 2rem;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  box-shadow: 0 2px 10px rgba(0, 86, 244, 0.1);
+}
+.profile-image img {
+  margin-bottom: 2rem;
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.profile-info {
+  margin-top: 2rem;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 86, 244, 0.1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
