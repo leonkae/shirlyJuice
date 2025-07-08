@@ -2,6 +2,8 @@ import { useState } from "react";
 import NameForm from "./name";
 import "./homeComponent.css";
 import mongoli from "./assets/fdhmongoli.jpg";
+
+
 function ProfileComponent() {
   const [username, setUsername] = useState("");
 
